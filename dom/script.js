@@ -1,0 +1,2 @@
+const ar = addEventListener;
+a;
