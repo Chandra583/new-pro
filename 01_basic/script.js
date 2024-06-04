@@ -17,3 +17,9 @@ console.log(isBoolean);
 //1 => true
 //0 => false
 //when its a string like "name/any charater" => ture
+
+let someNumber = 33;
+
+let toString = String(someNumber);
+console.log(toString);
+console.log(typeof toString);
