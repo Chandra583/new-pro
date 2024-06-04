@@ -1,6 +1,19 @@
-const accountId = 12321;
-let accountEmail = "chandra@gmail.com";
-var accountPassword = "adas12";
-accountCity = "Mysore";
+//data type conversion or operation
 
-console.log(accountId);
+let age = "20";
+
+let valueInNum = Number(age);
+
+console.log(typeof valueInNum);
+
+//33 => 33
+//"33abc" => NaN
+
+let isLogin = "";
+
+let isBoolean = Boolean(isLogin);
+console.log(isBoolean);
+
+//1 => true
+//0 => false
+//when its a string like "name/any charater" => ture
